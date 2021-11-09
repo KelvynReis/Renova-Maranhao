@@ -1,3 +1,15 @@
-body{
-  font-family: 'Montserrat', sans-serif;
+:root{
+  --font-titulo-h1: 'Montserrat', sans-serif;
+  --font-titulo-h2: 'Montserrat', sans-serif;
+  --font-titulo-h3: 'Mulish', sans-serif;
+
+  --cor-primaria: #FFC91F;
+  --cor-secundaria: #80650F;
+  --cor-preto-titulos: #202020;
+  --cor-preto-corrido: #101010;
+
+}
+
+html{
+  scroll-behavior: smooth;
 }
