@@ -1,0 +1,48 @@
+#coleta{
+  width: 100vw;
+  background-color: var(--cor-primaria);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.coleta-linha1, .coleta-linha2{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.coleta-oque, .coleta-como, .coleta-quem, .coleta-onde{
+  width: 50%;
+}
+
+.coleta-titulo{
+  font-size: 3.25rem;
+  font-family: var(--font-titulo-h2);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+}
+
+.bloco-oque, .bloco-como, .bloco-quem, .bloco-onde{
+  display: flex;
+  align-items: center;
+}
+
+.coleta-imagem{
+  width: 40%;
+  height: 40%;
+  margin-right: 15px;
+}
+
+.coleta-descricao{
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.seta-coleta{
+  position: absolute;
+  transform: translate(150%,-70%) scale(0.75) rotate(-5deg);
+}
+
+
