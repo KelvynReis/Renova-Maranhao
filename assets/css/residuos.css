@@ -3,14 +3,16 @@
 }
 .container__residuos{
     background-image: url(../img/saneamento.png);
+    background-repeat: no-repeat;
+    background-position: cover;
     width: 100%;
     height: 900px;
     display: inline-block;
 }
 
 .introducao__residuos{
-    width: 1200px;
-    margin: 200px auto 0 auto;
+    max-width: 1200px;
+    margin:0 auto;
 }
 
 .introducao__residuos h1{
@@ -19,10 +21,9 @@
     font-style: normal;
     font-size: 144px;
     line-height: 180.72px;
+    margin: 150px 0 0 0;
 
     color: #ffffff;
-
-    margin: 0;
 }
 
 .introducao__residuos > p{
@@ -45,4 +46,65 @@
     color: #ffffff;
 
     margin-top: 10px;
+}
+
+/* oquesao */
+.container__oquesao{
+    background-image: url(../img/ResiduosVector.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 1100px;
+    display: inline-block;
+
+    margin-top: -150px;
+}
+
+.content__oquesao{
+    width: 1200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 50px auto;
+
+}
+
+.intro-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-textos h2{
+    font-family: Mulish, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 120.48px;
+    color: var(--cor-preto-titulos);
+
+    margin-top: 150px;
+
+    text-align: start;
+}
+
+.intro-textos p{
+    font-family: Mulish, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--cor-preto-titulos);
+
+    margin-top: 70px;
+}
+
+.residuos__image{
+    width: auto;
+}
+
+.residuos__image img{
+    width: 650px;
 }

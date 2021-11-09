@@ -1,34 +1,25 @@
 header{
     background-color: var(--cor-primaria);
-    box-sizing: border-box;
     width: 100vw;
-
-    position: fixed;
+    height: 92px;
+    position: absolute;
     top:0;
-    z-index: 99;
-    margin: 0;
+    z-index: 1;
 }
 .container{
-    
-    max-width: 1200px;
-    height: 92px;
+    width: 1200px;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     margin: 0 auto;
 }
-
 .container__gif{
-    width: 15%;
-    margin-right: 100px;
+    width: 300px;
 }
-
 .container__gif h1 img{
-    position: absolute;
-    top: 9px;
-    left:170px;
-    width: 400px;
+    width: 100%;
 }
 .container nav{
     width: auto;
