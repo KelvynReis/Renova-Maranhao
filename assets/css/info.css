@@ -1,0 +1,75 @@
+#snis {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.informacoes{
+  width: 50%;
+  padding: 15px;
+}
+
+.informacoes h2{
+  font-family: var(--font-titulo-h2);
+  font-size: 3.25rem;
+  font-weight: 900;
+  color: var(--cor-preto-titulos);
+  margin-bottom: 2rem;
+}
+
+.informacoes p{
+  font-family: var(--font-titulo-h2);
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--cor-preto-corrido);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.botao-informacoes{
+  border: none;
+  width: 217px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: var(--cor-secundaria);
+  font-family: var(--font-titulo-h2);
+  font-size: 1.25rem;
+  color: #fdfdfd;
+  cursor: pointer;
+}
+
+.oquefazem{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 15px;
+}
+
+.snis-oquefazem{
+  display: flex;
+  align-items: flex-end;
+}
+
+.snis-oquefazem h2{
+  font-family: var(--font-titulo-h2);
+  font-size: 3.25rem;
+  font-weight: 900;
+  color: var(--cor-preto-titulos);
+  margin-bottom: 2rem;
+  padding-left: 15px;
+}
+
+.snis-oquefazem img{
+  width: 167px;
+  height: 167px;
+  margin-bottom: 2rem;
+}
+
+.oquefazem p{
+  font-family: var(--font-titulo-h2);
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--cor-preto-corrido);
+  margin-bottom: 2rem;
+  text-align: left;
+}
