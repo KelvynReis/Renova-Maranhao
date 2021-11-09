@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renova Maranhão</title>
 
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/residuos.css">
     <link rel="stylesheet" href="assets/css/info.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/info-coleta.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -79,84 +81,91 @@
         <section id="coleta">
             <section class="coleta-linha1">
                 <div class="coleta-oque">
-                    <h2>Coleta seletiva?</h2>
+                    <h2 class="coleta-titulo">Coleta seletiva?</h2>
                     <div class="bloco-oque">
-                        <img src="assets/img/coleta.png" alt="">
-                        <p>Recolhimento diferenciado de resíduos sólidos secos (papel, plástico, metal, vidro e outros).</p>
+                        <img class="coleta-imagem" src="assets/img/lata-lixo.png" alt="">
+                        <p class="coleta-descricao">Recolhimento diferenciado de resíduos sólidos secos (papel, plástico, metal, vidro e outros).</p>
                     </div>
                 </div>
                 <div class="coleta-como">
-                        <h2>O que fazem?</h2>
-                        <div class="bloco-commo">
-                            <img src="assets/img/como.png" alt="">
-                            <p>O Diagnóstico do Manejo de Resíduos Sólidos Urbanos reunem  informações de órgãos gestores dos serviços públicos de 3.712 municípios (66,6% dos 5.570 do país),  entre  eles  26  capitais  e  o Distrito  Federal.  A  amostra  abrange  173,8 milhões  de  habitantes,  o  que  corresponde  a 82,7%  da população  total  e  86,6%  da  população urbana  (154,2 milhões de habitantes) do Brasil em 2019.</p>
+                        <h2 class="coleta-titulo">O que fazem?</h2>
+                        <div class="bloco-como">
+                            <img class="coleta-imagem" src="assets/img/lixo-recicle.png" alt="">
+                            <p class="coleta-descricao">O Diagnóstico do Manejo de Resíduos Sólidos Urbanos reunem  informações de órgãos gestores dos serviços públicos de 3.712 municípios (66,6% dos 5.570 do país),  entre  eles  26  capitais  e  o Distrito  Federal.  A  amostra  abrange  173,8 milhões  de  habitantes,  o  que  corresponde  a 82,7%  da população  total  e  86,6%  da  população urbana  (154,2 milhões de habitantes) do Brasil em 2019.</p>
                         </div>
                 </div>
             </section>
+
+            <!-- <div class="seta-coleta">
+                <img src="assets/img/seta-coleta.svg" alt="">
+            </div> -->
     
             <section class="coleta-linha2">
                 <div class="coleta-quem">
-                    <h2>Quem coleta?</h2>
+                    <h2 class="coleta-titulo">Quem coleta?</h2>
                     <div class="bloco-quem">
-                        <img src="assets/img/quem.png" alt="">
-                        <p>Prefeitura, empresas contratada pela prefeitura, cooperativas de catadores com parceria com a prefeitura e entidades em parceria em a prefeitura.</p>
+                        <img class="coleta-imagem" src="assets/img/carro-lixo.png" alt="">
+                        <p class="coleta-descricao">Prefeitura, empresas contratada pela prefeitura, cooperativas de catadores com parceria com a prefeitura e entidades em parceria em a prefeitura.</p>
                     </div>
                 </div>
                 <div class="coleta-onde">
-                        <h2>Qual o destino?</h2>
+                        <h2 class="coleta-titulo">Qual o destino?</h2>
                         <div class="bloco-onde">
-                            <img src="assets/img/destino.png" alt="">
-                            <p>Centrais de Triagem são locais onde os materiais recicláveis secos são separados. O material é destinado à recuperação.</p>
-                            <p>Aterros Sanitários são locais de disposição final de materiais considerados não recuperáveis.</p>
+                            <img class="coleta-imagem" src="assets/img/lixao.png" alt="">
+                            <p class="coleta-descricao">Centrais de Triagem são locais onde os materiais recicláveis secos são separados. O material é destinado à recuperação. Aterros Sanitários são locais de disposição final de materiais considerados não recuperáveis.</p>
                         </div>
                 </div>
             </section>
         </section>
         
-
         <section id="fatos">
             <section class="dash-linha1">
                 <div class="municipios">
-                    <h3>Apenas 6 municipios</h3>
-                    <p>De 60 que participaram da pesquisa fazem reciclagem no estado do Maranhão</p>
+                    <h3 class="fatos-titulo">Apenas <span>6</span> municipios</h3>
+                    <p class="fatos-descricao">De 60 que participaram da pesquisa fazem reciclagem no estado do Maranhão</p>
                 </div>
                 <div class="reciclagem">
-                    <h3>Só 2.55% do lixo é reciclado</h3>
-                    <p>O resíduo sólido pode servir de abrigo e alimento para vetores que causam doenças</p>
+                    <h3 class="fatos-titulo">Só <span>2.55%</span> do lixo é reciclado</h3>
+                    <p class="fatos-descricao">O resíduo sólido pode servir de abrigo e alimento para vetores que causam doenças</p>
                 </div>
                 <div class="irregular">
-                    <h3>51.88% do lixo</h3>
-                    <p>No Maranhão ainda é depositado de maneira irregular</p>
+                    <h3 class="fatos-titulo"><span>51.88%</span> do lixo</h3>
+                    <p class="fatos-descricao">No Maranhão ainda é depositado de maneira irregular</p>
                 </div>
             </section>
 
             <section class="dash-graficos">
                 <img class="img-maranhao" src="assets/img/mapa maranhão 1.jpg" alt="">
                 <div class="graficos">
-                    <img class="imagem-graficos" src="assets/img/grafico-1.png" alt="Quantidade de tipos de lixo por tonelada no Maranhão">
-                    <img class="imagem-graficos" src="assets/img/grafico-2.png" alt="Quantidade de cidades que fazem a coleta seletiva">
+                    <img class="imagem-graficos1" src="assets/img/grafico-1.png" alt="Quantidade de tipos de lixo por tonelada no Maranhão">
+                    <img class="imagem-graficos2" src="assets/img/grafico-2.png" alt="Quantidade de cidades que fazem a coleta seletiva">
                 </div>
             </section>
 
             <section class="dash-linha2">
                 <div class="licenca">
-                    <h3>78.31% das unidades</h3>
-                    <p>Que participaram da pesquisa no Maranhão, estão sem licença ambiental</p>
-                    <img class="img-graphs" src="assets/img/grafico-3.png" alt="Quantidade de unidade por tipo de licença">
+                    <div class="info-graph">
+                        <h3 class="fatos-titulo"><span>78.31%</span> das unidades</h3>
+                        <p class="fatos-descricao">Que participaram da pesquisa no Maranhão, estão sem licença ambiental</p>
+                    </div>
+                    <img class="img-graphs1" src="assets/img/grafico-3.png" alt="Quantidade de unidade por tipo de licença">
                 </div>
                 <div class="drenagem">
-                    <h3>2 de um total de 83</h3>
-                    <p>Unidades fazem drenagem de gases no Maranhão</p>
-                    <img class="img-graphs" src="assets/img/grafico-4.png" alt="Quantidade de unidades que fazem a drenagem dos gases">
+                    <div class="info-graph">
+                        <h3 class="fatos-titulo"><span>Dois</span> de um total de 83</h3>
+                        <p class="fatos-descricao">Unidades fazem drenagem de gases no Maranhão</p>
+                    </div>
+                    <img class="img-graphs2" src="assets/img/grafico-4.png" alt="Quantidade de unidades que fazem a drenagem dos gases">
                 </div>
                 <div class="gases">
-                    <h3>1 de 82 unidades</h3>
-                    <p>Fazem aproveitamento desses gases</p>
-                    <img class="img-graphs" src="assets/img/grafico-5.png" alt="Quantidade de unidades que fazem o aproveitamento dos gases">
+                    <div class="info-graph">
+                        <h3 class="fatos-titulo"><span>Um</span> de 82 unidades</h3>
+                        <p class="fatos-descricao">Fazem aproveitamento desses gases</p>
+                    </div>
+                    <img class="img-graphs3" src="assets/img/grafico-5.png" alt="Quantidade de unidades que fazem o aproveitamento dos gases">
                 </div>
             </section>
         </section>
-
         
         <section id="projetos">
             <section class="catador">
