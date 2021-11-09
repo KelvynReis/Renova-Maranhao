@@ -4,7 +4,9 @@ header{
     width: 100vw;
 
     position: fixed;
+    top:0;
     z-index: 99;
+    margin: 0;
 }
 .container{
     
