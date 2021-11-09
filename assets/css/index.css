@@ -7,9 +7,5 @@
   --cor-secundaria: #80650F;
   --cor-preto-titulos: #202020;
   --cor-preto-corrido: #101010;
-
 }
 
-html{
-  scroll-behavior: smooth;
-}
