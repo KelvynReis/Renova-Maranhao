@@ -1,14 +1,14 @@
 header{
     background-color: var(--cor-primaria);
     width: 100vw;
-    height: 92px;
-    position: absolute;
+    height: 50px;
+    position: fixed;
     top:0;
     z-index: 1;
 }
 .container{
-    width: 1200px;
-
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +16,23 @@ header{
     margin: 0 auto;
 }
 .container__gif{
-    width: 300px;
+    width: 200px;
 }
 .container__gif h1 img{
     width: 100%;
 }
+
+.botao__cabecalho{
+    margin-right: 10px;
+}
+.botao__cabecalho img{
+    border: 0;
+    background-color: var(--cor-primaria);
+    width: 35px;
+}
+
 .container nav{
-    width: auto;
+    display: none;
 }
 #navbar li{
     display: inline;
@@ -45,4 +55,63 @@ header{
     border-radius: 100px;
     background-color: var(--cor-secundaria);
     color: wheat !important;
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 1024px){
+    header{
+        background-color: var(--cor-primaria);
+        width: 100vw;
+        height: 92px;
+        position: fixed;
+        top:0;
+        z-index: 999;
+    }
+    .container{
+        max-width: 1200px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0 auto;
+    }
+    .container__gif{
+        width: 300px;
+    }
+    .container__gif h1 img{
+        width: 100%;
+    }
+    .container nav{
+        display: block;
+        width: auto;
+    }
+    .botao__cabecalho{
+        display: none;
+    }
+    #navbar li{
+        display: inline;
+    }
+    
+    #navbar li a{
+        text-decoration: none;
+        color:var(--cor-preto-titulos);
+    
+        font-family: var(--font-titulo-h1);
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26.82px;
+    
+        margin-right: 25px;
+    }
+    
+    .participar{
+        padding: 13px 15px;
+        border-radius: 100px;
+        background-color: var(--cor-secundaria);
+        color: wheat !important;
+    }
 }
