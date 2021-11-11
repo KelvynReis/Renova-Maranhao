@@ -145,7 +145,7 @@
 
 /* TELAS DE ATÉ 768px */
 
-@media screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
   #fatos{
     width: 720px;
     margin: 30px auto;
@@ -226,7 +226,7 @@
 
  /* TELAS DE ATÉ 360px */
  
-@media screen and (max-width:360px) {
+@media only screen and (max-width:600px) {
   #fatos{
     width: 312px;
     margin: 10px auto;
@@ -296,7 +296,7 @@
   }
   
   .licenca, .lixo{
-    width: 328.93px;
+    width: 300px;
     height: 127.18px;
     box-shadow: 5px 5px var(--cor-primaria);
     padding: 8px;

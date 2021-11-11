@@ -43,7 +43,7 @@
 
 /* TELAS DE ATÉ 768px */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
   #coleta{
     padding: 30px 0;
   }
@@ -86,7 +86,7 @@
  
  /* TELAS DE ATÉ 360px */
  
- @media screen and (max-width:360px) {
+ @media screen and (max-width:600px) {
   #coleta{
     padding: 20px 0;
   }
