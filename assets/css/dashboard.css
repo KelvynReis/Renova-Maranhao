@@ -145,7 +145,7 @@
 
 /* TELAS DE ATÉ 768px */
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) and (max-width:1024px) {
   #fatos{
     width: 720px;
     margin: 30px auto;
