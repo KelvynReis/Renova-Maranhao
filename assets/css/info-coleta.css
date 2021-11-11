@@ -38,11 +38,99 @@
   font-style: normal;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+  width: 50%;
 }
 
 .seta-coleta{
   position: absolute;
   transform: translate(110%,-71%) scale(0.75) rotate(-5deg);
+}
+
+/* TELAS DE ATÉ 768px */
+
+@media screen and (max-width:768px) {
+  #coleta{
+    padding: 30px 0;
+  }
+
+  .coleta-oque, .coleta-como, .coleta-quem, .coleta-onde{
+    width: 100%;
+  }
+
+  .bloco-oque, .bloco-como, .bloco-quem, .bloco-onde{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  
+  .coleta-linha1, .coleta-linha2{
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .coleta-titulo{
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+
+  .coleta-imagem{
+    width: 40%;
+    height: 40%;
+    margin-right: 15px;
+    float: right;
+  }
+  
+  .coleta-descricao{
+    font-size: 16px;
+    margin-bottom: 0.3rem;
+    width: 100%;
+  }
+ }
+ 
+ /* TELAS DE ATÉ 360px */
+ 
+ @media screen and (max-width:360px) {
+  #coleta{
+    padding: 20px 0;
+  }
+
+  .coleta-oque, .coleta-como, .coleta-quem, .coleta-onde{
+    width: 100%;
+  }
+
+  .bloco-oque, .bloco-como, .bloco-quem, .bloco-onde{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  
+  .coleta-linha1, .coleta-linha2{
+    width: 312px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .coleta-titulo{
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+
+  .coleta-imagem{
+    width: 40%;
+    height: 40%;
+    margin-right: 15px;
+    float: right;
+  }
+  
+  .coleta-descricao{
+    font-size: 8px;
+    margin-bottom: 0.3rem;
+    width: 100%;
+  }
+
 }
 
 

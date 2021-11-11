@@ -75,6 +75,7 @@
   text-align: left;
 }
 
+/* TELAS DE ATÉ 768px */
 
 @media screen and (max-width:768px) {
  #snis{
@@ -88,7 +89,6 @@
 
  .informacoes h2{
   font-size: 36px;
-  font-weight: 900;
   margin-bottom: 1rem;
 } 
 
@@ -127,3 +127,57 @@
 }
 
 }
+
+/* TELAS DE ATÉ 360px */
+
+@media screen and (max-width:360px) {
+  #snis{
+    width: 327px;
+    margin-bottom: 1rem;
+  }
+ 
+  .informacoes{
+    width: 50%;
+  }
+ 
+  .informacoes h2{
+   font-size: 16px;
+   margin-bottom: 1rem;
+ } 
+ 
+ .informacoes p{
+   font-size: 9px;
+   margin-bottom: 1rem;
+   font-weight: normal;
+   text-align: left;
+ }
+ 
+ .botao-informacoes{
+   border: none;
+   width: 100%;
+   font-size: 9px;
+   padding: 10px;
+ }
+ 
+ .oquefazem{
+   width: 50%;
+ }
+ 
+ .snis-oquefazem h2{
+   font-size: 16px;
+   font-weight: 900;
+   margin-bottom: 1rem;
+ }
+ 
+ .snis-oquefazem img{
+   width: 54px;
+   height: 54px;
+   margin-bottom: 1rem;
+ }
+ 
+ .oquefazem p{
+   font-size: 9px;
+   margin-bottom: 1rem;
+ }
+ 
+ }
