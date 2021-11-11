@@ -308,8 +308,12 @@
     height: 207.88px;
     box-shadow: 5px 5px var(--cor-primaria);
     padding: 5px;
-    margin: 20px;
+    margin: 0px;
     justify-content: space-between;
+  }
+
+  .info-cards{
+    justify-content: space-around;
   }
 
   .info-card .fatos-titulo{
