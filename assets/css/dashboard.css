@@ -83,20 +83,6 @@
   transform: scale(0.9);
 }
 
-.graficos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.imagem-graficos1{
-  transform: scale(0.8);
-}
-
-.imagem-graficos2{
-  transform: scale(0.65);
-}
-
 .dash-linha2{
   display: flex;
   flex-direction: column;
@@ -155,4 +141,166 @@
 
 .img-graphs4{
   transform: scale(0.8);
+}
+
+/* TELAS DE ATÉ 768px */
+
+@media screen and (max-width:768px) {
+  #fatos{
+    width: 720px;
+    margin: 30px auto;
+    position: relative;
+  }
+  
+  #mapaMA{
+    width: 720px;
+    margin: 30px auto;
+  }
+  
+  .bg-mapa-maranhao{
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    margin: 0 auto;
+    transform: scale(1.1) translate(15%,-10%);
+  }
+  
+  .dash-linha1{
+    margin-top: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .municipios, .reciclagem{
+    width: 250px;
+    height: 230px;
+    margin-bottom: 70px;
+  }
+  
+  .fatos-titulo{
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  .fatos-descricao{
+    font-size: 16px;
+    padding: 15px;
+  }
+  
+  .dash-graficos{
+    justify-content: flex-start;
+  }
+
+  .dash-texto-descricao{
+    font-size: 16px;
+  }
+  
+  .img-maranhao{
+    width: 380.87px;
+    height: 495.19px;
+  }
+
+  .info-graph{
+    padding: 10px 0 10px 10px;
+    width: 30%;
+  }
+  
+  .licenca, .lixo{
+    width: 707.22px;
+    height: 273.44px;
+  }
+  
+  .drenagem, .gases{
+    width: 300px;
+    height: 489px;
+  }
+  
+  .img-graphs3{
+    transform: scale(0.7);
+  }
+  
+  .img-graphs4{
+    transform: scale(0.7);
+  }
+ }
+
+ /* TELAS DE ATÉ 360px */
+ 
+@media screen and (max-width:360px) {
+  #fatos{
+    width: 720px;
+    margin: 30px auto;
+    position: relative;
+  }
+  
+  #mapaMA{
+    width: 720px;
+    margin: 30px auto;
+  }
+  
+  .bg-mapa-maranhao{
+    position: absolute;
+    opacity: 30%;
+    z-index: -1;
+    margin: 0 auto;
+    transform: scale(1.1) translate(15%,-10%);
+  }
+  
+  .dash-linha1{
+    margin-top: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .municipios, .reciclagem{
+    width: 250px;
+    height: 230px;
+    margin-bottom: 70px;
+  }
+  
+  .fatos-titulo{
+    font-size: 24px;
+    padding: 15px;
+  }
+  
+  .fatos-descricao{
+    font-size: 16px;
+    padding: 15px;
+  }
+  
+  .dash-graficos{
+    justify-content: flex-start;
+  }
+
+  .dash-texto-descricao{
+    font-size: 16px;
+  }
+  
+  .img-maranhao{
+    width: 380.87px;
+    height: 495.19px;
+  }
+
+  .info-graph{
+    padding: 10px 0 10px 10px;
+    width: 30%;
+  }
+  
+  .licenca, .lixo{
+    width: 707.22px;
+    height: 273.44px;
+  }
+  
+  .drenagem, .gases{
+    width: 300px;
+    height: 489px;
+  }
+  
+  .img-graphs3{
+    transform: scale(0.7);
+  }
+  
+  .img-graphs4{
+    transform: scale(0.7);
+  }
 }
