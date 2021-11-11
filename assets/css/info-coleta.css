@@ -41,11 +41,6 @@
   width: 50%;
 }
 
-.seta-coleta{
-  position: absolute;
-  transform: translate(110%,-71%) scale(0.75) rotate(-5deg);
-}
-
 /* TELAS DE ATÉ 768px */
 
 @media screen and (max-width:768px) {
