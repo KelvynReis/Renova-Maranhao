@@ -1,0 +1,19 @@
+/* ANIMAÇÃO */
+
+[data-anim]{
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anim="left"]{
+  transform: translate3d(-100px,0,0);
+}
+
+[data-anim="right"]{
+  transform: translate3d(100px,0,0);
+}
+
+[data-anim].animate{
+  opacity: 1;
+  transform: translate3d(0px,0px,0px);
+}
