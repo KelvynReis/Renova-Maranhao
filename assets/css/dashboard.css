@@ -126,7 +126,7 @@
 }
 
 .img-graphs1{
-  transform: scale(0.9);
+  transform: scale(2);
   width: 70%;
 }
 
@@ -136,11 +136,11 @@
 }
 
 .img-graphs3{
-  transform: scale(0.8);
+  transform: scale(1.5);
 }
 
 .img-graphs4{
-  transform: scale(0.8);
+  transform: scale(1.8);
 }
 
 /* TELAS DE ATÉ 768px */
@@ -216,11 +216,11 @@
   }
   
   .img-graphs3{
-    transform: scale(0.7);
+    transform: scale(1.5);
   }
   
   .img-graphs4{
-    transform: scale(0.7);
+    transform: scale(1.7);
   }
  }
 
@@ -326,7 +326,7 @@
   
 
   .img-graphs1{
-    transform: scale(1);
+    transform: scale(2);
     width: 70%;
   }
   
