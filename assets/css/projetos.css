@@ -9,21 +9,21 @@
 .retangulo-bg-catador{
     background-color: var(--cor-primaria);
     position: absolute;
-    width: 50vw;
+    width: 800px;
     height: 415px;
     z-index: -1;
     border-radius: 8px;
-    transform: translate3d(-500px, -30px, 0);
+    transform: translate3d(-200px, -30px, 0);
 }
 
 .retangulo-bg-biogas{
     background-color: var(--cor-primaria);
     position: absolute;
-    width: 50vw;
+    width: 800px;
     height: 415px;
     z-index: -1;
     border-radius: 8px;
-    transform: translate3d(500px, -30px, 0);
+    transform: translate3d(250px, -30px, 0);
 }
 
 .catador{
