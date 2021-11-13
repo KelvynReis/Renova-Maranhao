@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/a4458531b3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -155,7 +155,7 @@
                         <h3 class="fatos-titulo"><span>51.88%</span> do lixo</h3>
                         <p class="fatos-descricao">No Maranhão ainda é depositado de maneira irregular</p>
                     </div>
-                    <img class="img-graphs1" src="assets/img/Graficos barra-qnt_lixo com texto-01.svg" loading="lazy" alt="Quantidade de tipos de lixo por tonelada no Maranhão">
+                    <img class="img-graphs1" src="assets/img/Grafico Lixo und maranhao.svg" loading="lazy" alt="Quantidade de tipos de lixo por tonelada no Maranhão">
                 </div>
                 <div class="licenca" data-anim="left">
                     <div class="info-graph">
@@ -187,12 +187,12 @@
         </section>
         
         <section id="projetos">
-            <section class="catador">
-                
+            <section class="catador" data-anim="left">
+                <div class="retangulo-bg-catador"></div>
                 <div class="catador__container">
                     <div class="bannerintro">
                         <img src="assets/img/logo-procatador.png" alt="Logomarca Pró-Catador" class="banner__imagem--catador">
-                        <button href="" class="botao__catador">Saiba Mais</button>
+                        <button onclick="catador()" class="botao__catador">Saiba Mais</button>
                     </div>
                     <div class="descricao">
                         <p class="titulo__descricao--inicio">Projeto</p>
@@ -206,7 +206,8 @@
                 </div>
             </section>
 
-            <section class="biogas">
+            <section class="biogas" data-anim="right">
+                <div class="retangulo-bg-biogas"></div>
                 <div class="desc-objetivoBio">
                     <p>Uma solução que dá nova utilidade a aterros sanitários, transformando o lixo orgânico em energia limpa. </p>
                     <p>É um fator positivo para a reputação das empresas que adotam modelos sustentáveis de geração de energia.</p>
@@ -219,24 +220,23 @@
                     </div>
                     <div class="bannerintro-Bio">
                         <img src="assets/img/logo-biogas.png" alt="Logomarca Biogás Brasil" class="bio__imagem">
-                        <button href="" class="bio__botao">Saiba Mais</button>
+                        <button onclick="biogas()" class="bio__botao">Saiba Mais</button>
                     </div>
                 </div>
             </section>
         </section>
 
         <section id="participe">
-           <!-- <img style="width: 100%;" src="assets/img/fundo-participe.png" alt="" class="fundo">-->
             <div class="container__participe">
                 <div class="participe__conteudo">
                     <div class="texto">
                         <h2>Como posso ajudar?</h2>
                         <div class="dicas">
                             <ul>
-                                <li class="dicas__item">Aproveite o máximo do lixo orgânico.</li>
-                                <li class="dicas__item">Separe o lixo seco pelos tipos de materias.</li>
-                                <li class="dicas__item">Tenha muito cuidado no descarte de resíduos.</li>
-                                <li class="dicas__item">Adote e ensine atitudes sustentáveis às crianças.</li>
+                                <li class="dicas__item"><i class="fas fa-lightbulb"></i> Aproveite o máximo do lixo orgânico.</li>
+                                <li class="dicas__item"><i class="fas fa-lightbulb"></i> Separe o lixo seco pelos tipos de materias.</li>
+                                <li class="dicas__item"><i class="fas fa-lightbulb"></i> Tenha muito cuidado no descarte de resíduos.</li>
+                                <li class="dicas__item"><i class="fas fa-lightbulb"></i> Adote e ensine atitudes sustentáveis às crianças.</li>
                             </ul>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
             <h5>Site desenvolvido por</h5>
             <div class="criadores__colunas">
                 <div class="coluna1">
-                    <p>Bruno Alves</p>
+                    <p>Bruna Alves</p>
                     <p>Jhones de Sousa</p>
                     <p>Kelvyn Reis</p>
                 </div>

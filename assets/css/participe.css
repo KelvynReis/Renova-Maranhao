@@ -1,14 +1,14 @@
 #participe{
     display: flex;
-}
-
-.container__participe{
-    width: 100%;
-    height: 600px;
     background-image: url(../img/fundo-participe.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: inline-block;
+}
+
+.container__participe{
+    width: 1200px;
+    margin: 0 auto;
+    height: 600px;
 }
 
 .participe__conteudo{
@@ -29,14 +29,14 @@
     height: 200px;
     font-family: var(--font-titulo-h2);
     font-weight: 900;
-    font-size: 72px;
+    font-size: 64px;
     line-height: 90px;
     margin-top: 60px;
     color: #202020;
 }
 
+
 .dicas__item{
-    position: relative;
     margin: 25px 0;
     font-family: var(--font-titulo-h2);
     font-style: normal;
@@ -44,6 +44,12 @@
     font-size: 24px;
     line-height: 31px;
 
+}
+
+.dicas__item .fa-lightbulb{
+    color: var(--cor-secundaria);
+    margin-right: 20px;
+    transform: scale(1.5);
 }
 
 .dicas__item::before{
