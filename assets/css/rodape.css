@@ -14,6 +14,23 @@
     justify-content: flex-end;
 }
 
+.redes h4{
+    font-family: var(--font-titulo-h1);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 15px;
+}
+
+.redessociais{
+    padding: 10px;
+}
+
+.redessociais__icone{
+    padding: 10px;
+}
+
 .criadores{
     width: 100%;
     height: 169px;
