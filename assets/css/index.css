@@ -8,3 +8,9 @@
   --cor-preto-titulos: #202020;
   --cor-preto-corrido: #101010;
 }
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}

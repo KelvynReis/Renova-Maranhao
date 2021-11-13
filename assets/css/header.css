@@ -23,7 +23,9 @@ header{
 }
 
 .botao__cabecalho{
-    margin-right: 10px;
+    margin-right: 25px;
+    border: none;
+    background-color: var(--cor-primaria);
 }
 .botao__cabecalho img{
     border: 0;
@@ -58,17 +60,22 @@ header{
 }
 
 @media only screen and (min-width: 768px) {
-    
+
+    header{
+        height: 92px;
+    }
+    .container nav{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     header{
         background-color: var(--cor-primaria);
-        width: 100vw;
-        height: 92px;
+        width: 100%;
         position: fixed;
         top:0;
-        z-index: 999;
+        z-index: 2;
     }
     .container{
         max-width: 1200px;
