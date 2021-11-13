@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="assets/css/info-coleta.css">
     <link rel="stylesheet" href="assets/css/dashboard.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/projetos.css">
+    <link rel="stylesheet" href="assets/css/participe.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Mulish:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
@@ -185,14 +188,17 @@
         
         <section id="projetos">
             <section class="catador">
-                <div class="bannerintro">
-                    <img src="assets/img/logo-procatador.png" loading="lazy" alt="Logomarca Pró-Catador">
-                    <button href="">Saiba Mais</button>
-                </div>
-                <div class="descricao">
-                    <p>Projeto</p>
-                    <h3>Pró-Catador</h3>
-                    <p>Cidadania e capacitação para trabalhadores da coleta seletiva trazendo renda familiar, elevação de escolaridade e autonomia.</p>
+                
+                <div class="catador__container">
+                    <div class="bannerintro">
+                        <img src="assets/img/logo-procatador.png" alt="Logomarca Pró-Catador" class="banner__imagem--catador">
+                        <button href="" class="botao__catador">Saiba Mais</button>
+                    </div>
+                    <div class="descricao">
+                        <p class="titulo__descricao--inicio">Projeto</p>
+                        <h3>Pró-Catador</h3>
+                        <p class="descricao__corpo">Cidadania e capacitação para trabalhadores da coleta seletiva trazendo renda familiar, elevação de escolaridade e autonomia.</p>
+                    </div>
                 </div>
                 <div class="desc-objetivo">
                     <p>O projeto visa estimular o esforço e conscientização da coleta seletiva, estimulando a prática da Política nacional de Resíduos Sólidos. </p>
@@ -205,31 +211,39 @@
                     <p>Uma solução que dá nova utilidade a aterros sanitários, transformando o lixo orgânico em energia limpa. </p>
                     <p>É um fator positivo para a reputação das empresas que adotam modelos sustentáveis de geração de energia.</p>
                 </div>
-                <div class="descricao-Bio">
-                    <p>Projeto</p>
-                    <h3>Biogás</h3>
-                    <p>Biocombustível feito a partir da transformação de materiais orgânicos, sendo utilizado como uma fonte alternativa de energia.</p>
-                </div>
-                <div class="bannerintro-Bio">
-                    <img src="assets/img/logo-biogas.png" loading="lazy" alt="Logomarca Biogás Brasil">
-                    <button href="">Saiba Mais</button>
+                <div class="bio__container">
+                    <div class="descricao-Bio">
+                        <p class="descricao-Bio__sub">Projeto</p>
+                        <h3>Biogás</h3>
+                        <p class="descricao-Bio__hst">Biocombustível feito a partir da transformação de materiais orgânicos, sendo utilizado como uma fonte alternativa de energia.</p>
+                    </div>
+                    <div class="bannerintro-Bio">
+                        <img src="assets/img/logo-biogas.png" alt="Logomarca Biogás Brasil" class="bio__imagem">
+                        <button href="" class="bio__botao">Saiba Mais</button>
+                    </div>
                 </div>
             </section>
         </section>
 
         <section id="participe">
-            <img style="width: 100%;" src="assets/img/fundo-participe.png" loading="lazy" alt="">
-            <div class="texto">
-                <h2>Como posso ajudar?</h2>
-                <div class="dicas">
-                    <p>Aproveite o máximo do lixo orgânico.</p>
-                    <p>Aproveite o máximo do lixo orgânico.</p>
-                    <p>Tenha muito cuidado no descarte de resíduos.</p>
-                    <p>Adote e ensine atitudes sustentáveis às crianças.</p>
+           <!-- <img style="width: 100%;" src="assets/img/fundo-participe.png" alt="" class="fundo">-->
+            <div class="container__participe">
+                <div class="participe__conteudo">
+                    <div class="texto">
+                        <h2>Como posso ajudar?</h2>
+                        <div class="dicas">
+                            <ul>
+                                <li class="dicas__item">Aproveite o máximo do lixo orgânico.</li>
+                                <li class="dicas__item">Aproveite o máximo do lixo orgânico.</li>
+                                <li class="dicas__item">Tenha muito cuidado no descarte de resíduos.</li>
+                                <li class="dicas__item">Adote e ensine atitudes sustentáveis às crianças.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="banner">
+                        <img src="assets/img/ajuda.png" alt="" class="participe__conteudo--imagem">
+                    </div>
                 </div>
-            </div>
-            <div class="banner">
-                <img src="assets/img/ajuda.png" alt="">
             </div>
         </section>
     </main>
@@ -245,31 +259,32 @@
                 </div>
             </div>
             <div class="logo-inova">
-                <img src="assets/img/agua.png" loading="lazy" alt="">
-                <img src="assets/img/inova logo 1.png" loading="lazy" alt="Logotipo da Inova MA">
+                <img src="assets/img/agua.png" alt="" class="logo__inova--fundo">
+                <img src="assets/img/inova logo 1.png" alt="" class="logo__inova--imagem">
             </div>
         </section>
 
         <section class="criadores">
             <h5>Site desenvolvido por</h5>
-            <div class="coluna1">
-                <p>Bruno Alves</p>
-                <p>Jhones de Sousa</p>
-                <p>Kelyn Reis</p>
-            </div>
-            <div class="coluna2">
-                <p>Larissa Silva</p>
-                <p>Lanna Ribeiro</p>
-                <p>Louise Araújo</p>
-            </div>
-            <div class="coluna3">
-                <p>Maysa Mafra</p>
-                <p>Neilton Seguins</p>
-                <p>Railson Doglas</p>
+            <div class="criadores__colunas">
+                <div class="coluna1">
+                    <p>Bruno Alves</p>
+                    <p>Jhones de Sousa</p>
+                    <p>Kelvyn Reis</p>
+                </div>
+                <div class="coluna2">
+                    <p>Larissa Silva</p>
+                    <p>Lanna Ribeiro</p>
+                    <p>Louise Araújo</p>
+                </div>
+                <div class="coluna3">
+                    <p>Maysa Mafra</p>
+                    <p>Neilton Seguins</p>
+                    <p>Railson Doglas</p>
+                </div>
             </div>
         </section>
     </footer>
-
     <script src="JavaScript/anim.js"></script>
     <script src="JavaScript/main.js"></script>
 

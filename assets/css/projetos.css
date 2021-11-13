@@ -1,0 +1,178 @@
+#projetos{
+    padding-top: 150px;
+    z-index: 0;
+}
+
+.catador{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.catador__container{
+    display: flex;
+    width: 860.18px;
+    height: 386.22px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 10px 30px #cccaca;
+    
+}
+
+.banner__imagem--catador{
+    width: 427px;
+    height: 265px;
+    top: 45px;
+    left: 38px;
+    border-radius: 6px;
+}
+
+.botao__catador{
+    border: none;
+    width: 217px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: var(--cor-secundaria);
+    font-family: var(--font-titulo-h2);
+    font-size: 1.25rem;
+    color: #fdfdfd;
+    cursor: pointer;
+    margin-left: 100px;
+    
+}
+
+.titulo__descricao--inicio{
+    font-family: var(--font-titulo-h1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #010101;
+}
+
+.descricao{
+    margin-top: 30px;
+}
+
+.descricao h3{
+    font-family: var(--font-titulo-h3);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 53px;
+    color: #202020;
+    padding-top: 10px;
+}
+
+.descricao__corpo{
+    font-family: var(--font-titulo-h3);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    padding-top: 10px;
+
+}
+
+.desc-objetivo{
+    width: 272px;
+    height: 380px;
+    margin-left: 90px;
+}
+
+
+.desc-objetivo p{
+    font-family: var(--font-titulo-h2);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 34px;
+}
+
+
+.biogas{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+.desc-objetivoBio p{
+    font-family: var(--font-titulo-h2);
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+
+.desc-objetivoBio{
+    width: 286px;
+    height: 387px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+
+.descricao-Bio__sub{
+    font-family: var(--font-titulo-h1);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+
+}
+
+.descricao-Bio h3{
+    font-family: var(--font-titulo-h3);
+    font-style: normal;
+    font-weight: 900;
+    color: #202020;
+    font-size: 42px;
+    line-height: 53px;
+}
+
+.descricao-Bio__hst{
+    font-family: var(--font-titulo-h3);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+
+}
+
+.bio__container{
+    display: flex;
+    width: 857px;
+    height: 386px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px #cccaca;
+    margin-bottom: 30px;
+}
+
+.bio__botao{
+    border: none;
+    width: 217px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: var(--cor-secundaria);
+    font-family: var(--font-titulo-h2);
+    font-size: 1.25rem;
+    color: #fdfdfd;
+    cursor: pointer;
+    margin-left: 150px;
+    
+}
+
