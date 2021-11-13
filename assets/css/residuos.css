@@ -249,7 +249,7 @@
     
     /* oquesao */
     .container__oquesao{
-        height: 1110px;
+        height: 1000px;
         background-image: url(../img/ResiduosVector.png);
         object-fit:cover;
         margin-top: -150px;
@@ -303,12 +303,16 @@
     }
     
     .residuos__image{
-        width: auto;
-        margin-top: 150px;
+        width: 100%;
+        margin: 150px 0 0 0; 
+        object-fit: cover;
+        box-sizing: border-box;
     }
     
     .residuos__image img{
-        width: 650px;
+        width: 600px;
         height: auto;
+        object-fit: cover;
+        box-sizing: border-box;
     }
 }
