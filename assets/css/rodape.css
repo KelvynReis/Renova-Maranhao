@@ -71,7 +71,8 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    transform: translateX(71px);
+    right: 0;
+    transform: translateX(calc(100vw - 1290px));
 }
 
 

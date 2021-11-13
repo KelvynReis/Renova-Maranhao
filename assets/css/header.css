@@ -14,6 +14,8 @@ header{
     align-items: center;
 
     margin: 0 auto;
+
+    position: relative;
 }
 .container__gif{
     width: 200px;
@@ -33,9 +35,7 @@ header{
     width: 35px;
 }
 
-.container nav{
-    display: none;
-}
+
 #navbar li{
     display: inline;
 }
@@ -53,18 +53,51 @@ header{
 }
 
 .participar{
-    padding: 13px 15px;
+    padding: 13px 5px;
     border-radius: 100px;
     background-color: var(--cor-secundaria);
     color: wheat !important;
 }
 
+nav{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    height: 390px;
+    background-color: var(--cor-primaria);
+}
+
+#navbar{
+    display: none;
+}
+
+
+.botao__cabecalho{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px; 
+} 
+
+#navbar a{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 
     header{
         height: 92px;
+        justify-content: space-evenly;
     }
-    .container nav{
+    #navbar{
         display: none;
     }
 }
@@ -92,7 +125,7 @@ header{
     .container__gif h1 img{
         width: 100%;
     }
-    .container nav{
+    #navbar{
         display: block;
         width: auto;
     }
