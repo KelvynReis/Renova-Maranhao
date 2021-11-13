@@ -73,7 +73,7 @@ header{
     header{
         background-color: var(--cor-primaria);
         width: 100%;
-        position: fixed;
+        position: absolute;
         top:0;
         z-index: 2;
     }

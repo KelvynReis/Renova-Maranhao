@@ -1,5 +1,5 @@
 #residuos{
-    width: 100vw;
+    width: 100%;
 }
 
 .container__residuos{
@@ -209,6 +209,8 @@
    
     .container__residuos{
         background-image: url(../img/saneamento.png);
+        background-repeat: no-repeat;
+        background-position: cover;
         height: 979px;
         display: inline-block;
         margin-top: 92px;
@@ -273,10 +275,10 @@
     }
     
     .intro-textos h2{
-        width: 589px;
+        width:700px;
         font-weight: 900;
         font-style: normal;
-        font-size: 90px;
+        font-size: 83px;
         line-height: 120.48px;
         color: var(--cor-preto-titulos);
     
@@ -292,15 +294,21 @@
         font-size: 24px;
         line-height: 34px;
         color: var(--cor-preto-titulos);
-    
+        margin: 0;
+        
+    }
+
+    .intro-textos p:last-child{
         margin-top: 70px;
     }
     
     .residuos__image{
         width: auto;
+        margin-top: 150px;
     }
     
     .residuos__image img{
         width: 650px;
+        height: auto;
     }
 }

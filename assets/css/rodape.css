@@ -70,9 +70,8 @@
 .logo__inova__fundo__amarelo{
     width: 100%;
     position: absolute;
-    right: 0;
     bottom: 0;
-    transform: translateX(74px);
+    transform: translateX(71px);
 }
 
 
